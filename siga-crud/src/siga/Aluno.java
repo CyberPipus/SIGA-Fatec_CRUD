@@ -1,12 +1,5 @@
 package siga;
 
-/**
- * Sistema de Gestão Acadêmica Simplificado (SIGA)
- * Técnicas de Programação II - Fatec de Porto Ferreira
- * Atividade prática da Aula 8 (CRUD completo e Etapa 1).
- *
- * Entidade de domínio. Está adequada e NÃO é alvo da refatoração.
- */
 public class Aluno {
 
     private final String nome;

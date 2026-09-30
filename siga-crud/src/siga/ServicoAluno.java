@@ -51,7 +51,7 @@ public class ServicoAluno {
     public Aluno consultar(String matricula) {
         Aluno aluno = dao.buscarPorMatricula(matricula);
         if (aluno == null) {
-            throw new IllegalArgumentException("Aluno não encontrado.");
+            throw new IllegalArgumentException("Matrícula " + matricula + " não encontrada.");
         }
         return aluno;
     }
